@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <style>
+            fieldset  {
+                border: 18.5px solid rgb(200,200,200);
+                margin: 10px
+            }
+            h1 {
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+                background-color: rgba(200,200,200, 20%);
+            }
+            legend {
+                text-align: center;
+                background-color:  rgb(200,200,200);
+            }
+            html {
+                font-family: 'Courier New', Courier, monospace;
+                width: 90%;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>User Registration Form</h1>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>Please Fill In Details Below</legend>
+                <br><br>
+    <label>Full Name:</label>
+    <br><br>
+    <input type="text" maxlength="40" placeholder="First name, Last name" required>
+    <br><br>
+    <label>Date of Birth</label>
+    <br><br>
+    <input type="date" required>
+    <br><br>
+    </fieldset>
+    <fieldset>
+    <br><br>
+    <label>Choose your Gender:</label>
+    <br><br>
+    <label for="male">Male</label>
+    <input id="male" type="radio" name="answer">
+    <label for="female">Female</label>
+    <input id="female" type="radio" name="answer">
+    <br><br>
+    <label>Upload profile picture</label>
+    <br><br>
+    <input type="file">
+    <br><br>
+    </fieldset>
+    <fieldset>
+    <br><br>
+    <label>Your Email Below:</label>
+    <br><br>
+    <input type="email" required placeholder="example.example@example.com">
+     <br><br>
+     <label>Phone Number:</label>
+     <br><br>
+     <input type="number" required>
+     <br><br>
+     <label>Write your Address</label>
+     <br><br>
+     <textarea ></textarea>
+     <br><br>
+     </fieldset>
+     <fieldset>
+     <br><br>
+     <label>Preferred method of Contact:</label>
+     <br><br>
+     <select>
+        <option>Select from here</option>
+        <option>Phone</option>
+        <option>Email</option>
+        <option>Mail</option>
+        <option>Fax</option>
+     </select>
+     <br><br>
+     <label>Subscribe to Newsletter?</label>
+     <br><br>
+     <label>Yes</label>
+     <input type="checkbox">
+     <label>No</label>
+     <input type="checkbox">
+     <br><br>
+     <label>Accept Terms and Conditions</label>
+     <p><a href="https://termly.io/resources/templates/terms-and-conditions-template/">Terms and Conditions</a></p>
+     <label>I Accept</label>
+     <input type="checkbox">
+     <label>I Dont Accept</label>
+     <input type="checkbox">
+     <br><br>
+     <label>Create Username:</label>
+     <br><br>
+     <input type="text">
+     <br><br>
+     <label>Create Password:</label>
+     <br><br>
+     <input type="password" minlength="10" placeholder="10 letters minimum" required>
+     <br><br> 
+</fieldset>
+<br><br>
+<button>Submit Application</button>
+        </form>
+    </body>
+
+</html>
